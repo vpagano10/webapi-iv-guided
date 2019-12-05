@@ -10,6 +10,9 @@ Single Responsibility Principle:
 - extract configuration into environment variables
 - setup continuous deployment from Github to Heroku
     - commit and push to Github will automatically update to Heroku
+- add a script ("start": "node index.js") in package.json
+- make the port dynamic
+
 
 # To Switch Remotes (if you accidentally coded in the wrong repo or did not forlk)
     - 'git remote set-url origin url to new empty repo on github'
